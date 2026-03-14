@@ -1,0 +1,124 @@
+.dashboard-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 12px;
+  color: var(--text3);
+}
+
+.empty-icon { opacity: 0.4; }
+.empty-title { font-size: 16px; font-weight: 500; color: var(--text2); }
+.empty-sub { font-size: 13px; color: var(--text3); text-align: center; max-width: 320px; }
+
+.dashboard-running {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.running-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.running-label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text3);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+}
+
+.running-pct {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--accent);
+}
+
+.running-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.rstat {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rstat-val {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--text);
+}
+
+.rstat-lbl {
+  font-size: 11px;
+  color: var(--text3);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dash-tabs {
+  display: flex;
+  gap: 2px;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+
+.dash-tab {
+  padding: 8px 14px;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--text3);
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+  transition: all 0.15s;
+}
+.dash-tab:hover { color: var(--text2); }
+.dash-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.dash-content {
+  min-height: 300px;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.chart-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+}
+
+.chart-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.chart-card-title {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}

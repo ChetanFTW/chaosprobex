@@ -1,0 +1,7 @@
+{
+  "name": "chaosprobex-analyzer",
+  "description": "AI-powered chaos test analysis MCP server for ChaosProbeX",
+  "version": "1.0.0",
+  "entrypoint": "main.py",
+  "runtime": "python3.11"
+}

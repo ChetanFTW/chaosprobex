@@ -1,0 +1,100 @@
+.scorecard {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.scorecard-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.score-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.score-sublabel {
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: 3px;
+  font-family: var(--font-mono);
+}
+
+.scorecard-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.sc-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 80px;
+}
+
+.sc-val {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.sc-lbl {
+  font-size: 10px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.scorecard-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 200px;
+  flex: 1;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bar-label {
+  font-size: 11px;
+  color: var(--text2);
+  min-width: 95px;
+}
+
+.bar-track {
+  flex: 1;
+  height: 6px;
+  background: var(--bg4);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 1s ease;
+}
+
+.bar-pct {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  min-width: 36px;
+  text-align: right;
+}
