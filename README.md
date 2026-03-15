@@ -1,4 +1,4 @@
-# ChaosProbeX 🔴
+# ChaosProbeX 
 
 > API Chaos Testing · Observability · Supply Chain Security · AI Analysis
 
