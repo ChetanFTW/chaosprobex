@@ -8,6 +8,9 @@ AI-powered fix suggestions via **Concierge MCP**.
 
 ---
 
+![Chaosprobex Dashboard](./frontend/src/components/Cheos_Dashboard.png)
+frontend/src/components/Cheos_Dashboard.png
+
 ## Quick Start (no credentials needed)
 
 ```bash
